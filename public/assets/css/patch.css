@@ -1,0 +1,15 @@
+
+a.close {
+         opacity: 0.4;
+         font-size: 14px; 
+         text-shadow: none;}
+
+#header {z-index: 1000;}
+
+img.PCRoadmap {width:95%; display: block; margin-left: 23.5px;}
+img.MOBILERoadmap {width:95%; display: none;}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+img.PCRoadmap {display: none;}
+img.MOBILERoadmap {display: block;}
+}
